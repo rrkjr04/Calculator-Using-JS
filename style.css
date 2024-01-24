@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 30vw;
+    height: 90vh;
+    background-color: black;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.view {
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.ylo {
+    background-color: #ffb733;
+}
+
+.obj {
+    background-color: black;
+
+    height: 20vh;
+    border-radius: 30px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+
+    font-weight: bolder;
+
+    width: 28vw;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin: 10px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
